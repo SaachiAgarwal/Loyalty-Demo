@@ -108,3 +108,4 @@ Launch the Web Demo
 -------------------
 
 No additional configuration or setup is required. Based on where you installed the web demo, open the appropriate address in your web browser, and you are ready to go!
+"# Loyalty-Program-Multichain-Demo" 
