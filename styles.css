@@ -1,4 +1,22 @@
+<nav class="navbar navbar-default">
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="./?chain=default">Node</a></li>
+						<li><a href="./?chain=default&page=permissions">Permissions</a></li>
+						<li><a href="./?chain=default&page=issue" class="pair-first">Issue Asset</a></li>
+						<li><a href="./?chain=default&page=update" class="pair-second">| Update</a></li>
+						<li><a href="./?chain=default&page=send">Send</a></li>
+						<li><a href="./?chain=default&page=offer" class="pair-first">Exchange Loyalty Points</a></li>
+						<li><a href="./?chain=default&page=accept" class="pair-second">| Accept</a></li>
+						<li><a href="./?chain=default&page=create">Create Stream</a></li>
+						<li><a href="./?chain=default&page=publish">Publish</a></li>
+						<li><a href="./?chain=default&page=view">View Streams</a></li>
+					</ul>
+				</div>
+			</nav>
+
 .nav > li > a.pair-first {padding-right:5px;}
+
 .nav > li > a.pair-second {padding-left:0;}
 .bg-success {background-color: #ccffbb; border:1px solid #cccccc;}
 .bg-danger {background-color: #ffbbcc; border:1px solid #cccccc;}

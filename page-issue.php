@@ -120,7 +120,7 @@
 					$details[$key]=$value;
 				}
 			
-			if (count(@$detailshistory['@file'])) {
+			if (@$detailshistory['@file']) {
 ?>
 							<tr>
 								<th>File:</th>

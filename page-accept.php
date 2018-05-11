@@ -200,7 +200,7 @@
 ?>
 				
 				<div class="col-sm-7">
-					<h3>Decode Offer</h3>
+					<h3>Accept Exchange</h3>
 					
 					<form class="form-horizontal" method="post" action="./?chain=<?php echo html($_GET['chain'])?>&page=<?php echo html($_GET['page'])?>">
 						<div class="form-group">

@@ -234,3 +234,4 @@
 			'filesize' => $parts[4],
 		);
 	}
+	

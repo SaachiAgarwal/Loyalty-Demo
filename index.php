@@ -17,7 +17,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>MultiChain Demo</title>
+		<title>Loyalty Program</title>
 		<!--
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
@@ -29,7 +29,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1><a href="./">MultiChain Demo</a><?php if (strlen($name)) { ?> &ndash; <?php echo html($name)?><?php } ?></h1>
+			<h1><a href="./">Loyalty Program</a></h1>
 <?php
 	if (strlen($chain)) {
 		$name=@$config[$chain]['name'];
@@ -40,10 +40,10 @@
 					<ul class="nav navbar-nav">
 						<li><a href="./?chain=<?php echo html($chain)?>">Node</a></li>
 						<li><a href="./?chain=<?php echo html($chain)?>&page=permissions">Permissions</a></li>
-						<li><a href="./?chain=<?php echo html($chain)?>&page=issue" class="pair-first">Issue Asset</a></li>
+						<li><a href="./?chain=<?php echo html($chain)?>&page=issue" class="pair-first">Issue Assets</a></li>
 						<li><a href="./?chain=<?php echo html($chain)?>&page=update" class="pair-second">| Update</a></li>
-						<li><a href="./?chain=<?php echo html($chain)?>&page=send">Send</a></li>
-						<li><a href="./?chain=<?php echo html($chain)?>&page=offer" class="pair-first">Create Offer</a></li>
+						<li><a href="./?chain=<?php echo html($chain)?>&page=send">Transfer</a></li>
+						<li><a href="./?chain=<?php echo html($chain)?>&page=offer" class="pair-first">Exchange Loyalty Points</a></li>
 						<li><a href="./?chain=<?php echo html($chain)?>&page=accept" class="pair-second">| Accept</a></li>
 						<li><a href="./?chain=<?php echo html($chain)?>&page=create">Create Stream</a></li>
 						<li><a href="./?chain=<?php echo html($chain)?>&page=publish">Publish</a></li>
